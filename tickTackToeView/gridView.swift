@@ -9,7 +9,7 @@ import SwiftUI
 
 struct gridView: View {
     
-    // Moves
+    // Moves //
     @State var moves : [String] = Array(repeating: "", count: 9)
     
     // identifying the current player
